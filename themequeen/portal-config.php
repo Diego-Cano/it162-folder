@@ -30,33 +30,32 @@ switch(THIS_PAGE){
 
     case 'template.php':
         $pageID = "Theme Queen";
-        $logo = "fab fa-codepen";
+        $title = "Theme Queen's Home Page";
     break;
 
     case 'contactme.php':
         $pageID = "Contact Me Page";
-        $logo = "fa-paper-plane-o";
-        $logo_color = ' style="color:#0f0"';
+        $title = "Theme Queen's Contact me Page";   
     break;
 
     case 'about.php':
         $pageID = "About Page";
-        $logo = "fab fa-codepen";
+        $title = "Theme Queen's About Page";
     break;
 
     case 'video.php':
         $pageID = "Video Page";
-        $logo = "fab fa-codepen";
+        $title = "Theme Queen's Video Page";
     break;
 
     case 'location.php':
         $pageID = "Video Page";
-        $logo = "fab fa-codepen";
+        $title = "Theme Queen's Location Page";
     break;
 
     default:
         $pageID = THIS_PAGE;
-        $logo = " ";//no icon by default
+        $title = " Them Queen";
         
 }
 
