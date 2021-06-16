@@ -1,0 +1,43 @@
+h1{
+    background-color: #333;
+    padding-top: 50px;
+    margin: 0px;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+}
+
+span{
+    color: white;
+}
+
+html{
+    background: url('https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg') no-repeat center center fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+
+    .fa-rainbow:before {
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        margin-right: 10px;
+        color: azure;
+    }
+    
+h2{
+    text-align: center;
+}
+
+a{
+    color: crimson;
+}
+
+.simpleForm{
+    display: flex;
+    justify-content: center;
+}
+
+.formDiv{
+    margin-bottom: 5px;
+}
